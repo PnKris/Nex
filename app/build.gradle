@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'nexPlugin'
 
 android {
     compileSdkVersion 27

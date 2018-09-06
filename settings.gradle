@@ -1,1 +1,1 @@
-include ':app', ':api', ':compiler', ':annotation'
+include ':app', ':api', ':compiler', ':annotation', ':nexplugin'
