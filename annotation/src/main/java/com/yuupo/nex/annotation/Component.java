@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.CLASS)
-@Target({ElementType.TYPE})
+@Target(ElementType.TYPE)
 public @interface Component {
-    String path();
+    String path() default "";
 }
